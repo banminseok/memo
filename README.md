@@ -16,3 +16,8 @@ https://blog.naver.com/PostView.naver?blogId=dreammorning&logNo=222494969974&cat
 reg delete HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\IrisService /f && shutdown -r -t 0
 
 6단계 : Enter 키를 누르면 PC가 재부팅됩니다. 재부팅 후 모든 것이 정상으로 돌아와야 합니다.
+
+자세히 보기 실행하고 -> 파일 -> 새작업실행 을 누른다.
+빈칸에 cmd 치고 엔터 + 새로뜬 커맨드창에 reg delete HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\IrisService /f && shutdown -r -t 0 치고 엔터치면 재시작된다.
+
+바로 다시 시작되어 작업표시줄 나오는 사람도 있고, 새사용자 설정이라고 해서 그냥 기존 계정정보 넣거나 로컬계정인 사람은 뒤로, 취소 누르면 정상적으로 나타난다.
